@@ -1,0 +1,19 @@
+# transpiled files and dependencies
+/node_modules
+/public/js
+/public/css
+/dist
+
+# ignore all config except default
+/src/server/config/*
+!/src/server/config/default.js
+
+# application instance specific
+/logs
+.soundworks
+/bin/.browserify-cache.json
+
+# ignore junk files
+npm-debug.log
+.DS_Store
+Thumbs.db
